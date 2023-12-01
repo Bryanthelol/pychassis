@@ -20,6 +20,7 @@ hide:
 ## 采用的策略
 
 现有策略：
+
 1. 单人单分支手动发布
 2. 团队多分支 GitFlow 工作流
 3. 团队多分支 semantic-release 语义化发布（需要代码托管平台为 github / gitlab）
