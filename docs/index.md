@@ -21,7 +21,7 @@ Nameko 提供 RPC 同步调用（同时支持异步调用），事件发布/订�
 
 如果业务量加大，对微服务的请求数量上升到了一定程度，那么只需要增加 Nameko 微服务的实例数量就可以轻松应对，底层的 RabbitMQ 会自动对 Nameko 实例做负载均衡。
 
-## 命令行工具 pychassiscli
+## pychassiscli 命令行工具
 
 pychassiscli 是一个命令行工具，开发人员本地编写项目代码时使用。
 
@@ -42,7 +42,7 @@ pychassiscli 是一个命令行工具，开发人员本地编写项目代码时�
 	- 刷新 metrics 服务的配置
 		- `pycli refresh -s metrics `
 
-## 公共代码和包依赖集合库 pychassislib
+## pychassislib 公共代码和包依赖集合库 
 
 pychassislib 是一个应用运行的依赖库，测试或生产环境使用。
 
