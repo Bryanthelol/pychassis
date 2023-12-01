@@ -6,7 +6,7 @@ pychassis 系列仓库文档（简体中文）
 
 ## 文档地址
 
-todo
+- [中文](https://shiny-cupcake-81fdcf.netlify.app/)
 
 ## 部署命令
 
