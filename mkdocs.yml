@@ -1,0 +1,59 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Pychassis for microservices
+nav:
+- index.md
+- 整体架构说明.md
+- 持续集成和部署:
+  - CICD 概述.md
+  - dev test 环境方案.md
+  - sit 环境方案.md
+  - staging 环境方案.md
+  - prod 环境方案.md
+- 参考文档.md
+repo_url: https://github.com/Bryanthelol/pychassiscli
+repo_name: pychassiscli
+copyright: Copyright &copy; 2023 Bryant He
+theme:
+  name: material
+  language: zh
+  logo: assets/IMG_0976_little.png
+  favicon: assets/IMG_0976_little.png
+  icon:
+    logo: simple/materialdesign
+    repo: simple/github
+  features:
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: indigo
+      toggle:
+        icon: material/lightbulb
+        name: 切至暗黑模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: grey
+      accent: blue
+      toggle:
+        icon: material/lightbulb-outline
+        name: 切至光亮模式
+extra:
+#  alternate:
+#    - name: English
+#      link: https://legendary-sopapillas-e2626d.netlify.app/
+#      lang: en
+#    - name: 简体中文
+#      link: https://doc.bearcatlog.com/
+#      lang: zh
+  social:
+    - icon: material/github
+      link: https://github.com/Bryanthelol
+    - icon: material/twitter
+      link: https://twitter.com/beijisenlin
+plugins:
+  - search
+  - git-authors
